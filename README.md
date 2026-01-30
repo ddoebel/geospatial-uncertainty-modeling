@@ -27,8 +27,8 @@ The pipeline quantifies how forecast uncertainty grows over time by modeling the
 
 The project bridges data engineering and physical climate science:
 - **Physical Motivation**: Weather anomalies often exhibit "memory" that decays over time, a characteristic well-captured by the OU process (the continuous-time analog of AR(1)).
-- **Mathematical Rigor**: Parameters are derived from the integral time scale of the autocorrelation function, ensuring consistent estimation of temporal persistence.
-- **Interpretability**: Instead of black-box predictions, the model provides clear metrics on where and how fast atmospheric predictability saturates.
+- **Mathematical Modeling**: Parameters are derived from the integral time scale of the autocorrelation function, ensuring consistent estimation of temporal persistence.
+- **Interpretability**: The model provides metrics on where and how fast atmospheric predictability saturates.
 
 ## Roadmap
 
