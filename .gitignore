@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Dagster
+.tmp_dagster_home*/
+storage/
+
+# Data
+data/*.nc
