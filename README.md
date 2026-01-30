@@ -53,6 +53,15 @@ The project is organized into a modular package structure:
 - Python 3.9+
 - Dependencies: `xarray`, `numpy`, `pandas`, `dagster`, `statsmodels`, `matplotlib`, `netcdf4`
 
+### Data Preparation
+To reproduce the results, you need the ERA5 Monthly Evaporation dataset.
+
+1.  **Download the data**: [ERA5_LowRes_Monthly_evap.nc](https://cluster.klima.uni-bremen.de/~fmaussion/teaching/climate/ERA5_LowRes_Monthly_evap.nc)
+2.  **Place the file**: Create a `data/` directory in the project root and place the downloaded file there.
+
+The expected path is:
+`data/ERA5_LowRes_Monthly_evap.nc`
+
 ### Running the Pipeline
 The project is structured with Dagster assets. You can launch the Dagster UI to explore and run the pipeline:
 
